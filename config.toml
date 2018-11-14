@@ -1,4 +1,7 @@
 baseURL = "https://leandrorosa.github.io/"
 languageCode = "en-us"
 title = "Leandro Rosa"
-theme = "hugo_theme_pickles"
+theme = "basics"
+
+[params]
+    github = "leandrorosa"
