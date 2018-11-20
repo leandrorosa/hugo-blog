@@ -1,13 +1,12 @@
 #!/bin/bash
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
-
 # Build the project.
 hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
-# Go To Public folder
-cd public
-# Add changes to git.
+rm -r /home/leandro/code/leandrorosa.github.io/*
+cp -r public/* /home/leandro/code/leandrorosa.github.io/
+cd /home/leandro/code/leandrorosa.github.io/
 git add .
 
 # Commit changes.
