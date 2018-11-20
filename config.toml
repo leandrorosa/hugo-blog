@@ -4,7 +4,7 @@ title = "Leandro Rosa"
 theme = "hugo_theme_pickles"
 [params]
 twitter = "leandroorosa"
-github = "http://github.com/leandrorosa"
+github = "leandrorosa"
 
 [languages]
  [languages.en]
